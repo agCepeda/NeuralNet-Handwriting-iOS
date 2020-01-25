@@ -73,7 +73,7 @@ public extension NeuralNet {
                     let realSet = real[start..<(start + cols)]
                     let labelSet = target[start..<(start + cols)]
                     // Compare max values of outputs and labels
-                    if realSet.index(of: realSet.max()!) != labelSet.index(of: labelSet.max()!) {
+                    if realSet.firstIndex(of: realSet.max()!) != labelSet.firstIndex(of: labelSet.max()!) {
                         // Incorrect answer; increment counter
                         incorrect += 1
                     }
