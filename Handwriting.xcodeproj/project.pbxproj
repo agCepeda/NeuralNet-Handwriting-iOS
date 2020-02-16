@@ -24,7 +24,29 @@
 		F08248451EB82EC200EC951B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08248441EB82EC200EC951B /* MainViewController.swift */; };
 		F082484A1EB82EC300EC951B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08248491EB82EC300EC951B /* Assets.xcassets */; };
 		F082484D1EB82EC300EC951B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */; };
+		FA0A956223DCB60500C9B6C9 /* HandWrittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A956123DCB60500C9B6C9 /* HandWrittingView.swift */; };
+		FA0A956423DCB7B600C9B6C9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A956323DCB7B600C9B6C9 /* TestViewController.swift */; };
+		FA0A956623DCC27800C9B6C9 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A956523DCC27800C9B6C9 /* UIView+extension.swift */; };
+		FA0A956B23DCE18400C9B6C9 /* DigitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A956923DCE18400C9B6C9 /* DigitCollectionViewCell.swift */; };
+		FA0A956C23DCE18400C9B6C9 /* DigitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0A956A23DCE18400C9B6C9 /* DigitCollectionViewCell.xib */; };
+		FAE581B523E119A300486131 /* DashboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE581B423E119A300486131 /* DashboardLayout.swift */; };
+		FAE581B723E1384F00486131 /* InputDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE581B623E1384F00486131 /* InputDashboardViewController.swift */; };
+		FAE581BA23E138C800486131 /* InputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE581B823E138C800486131 /* InputTableViewCell.swift */; };
+		FAE581BB23E138C800486131 /* InputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE581B923E138C800486131 /* InputTableViewCell.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA06CD2D23DD18730063740E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "neuralnet-mnist-trained"; sourceTree = SOURCE_ROOT; };
@@ -46,6 +68,15 @@
 		F08248491EB82EC300EC951B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F082484C1EB82EC300EC951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F082484E1EB82EC300EC951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A956123DCB60500C9B6C9 /* HandWrittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWrittingView.swift; sourceTree = "<group>"; };
+		FA0A956323DCB7B600C9B6C9 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FA0A956523DCC27800C9B6C9 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		FA0A956923DCE18400C9B6C9 /* DigitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA0A956A23DCE18400C9B6C9 /* DigitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigitCollectionViewCell.xib; sourceTree = "<group>"; };
+		FAE581B423E119A300486131 /* DashboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardLayout.swift; sourceTree = "<group>"; };
+		FAE581B623E1384F00486131 /* InputDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDashboardViewController.swift; sourceTree = "<group>"; };
+		FAE581B823E138C800486131 /* InputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTableViewCell.swift; sourceTree = "<group>"; };
+		FAE581B923E138C800486131 /* InputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +127,7 @@
 			children = (
 				F08248411EB82EC200EC951B /* Handwriting */,
 				F08248401EB82EC200EC951B /* Products */,
+				FA56C24023DD168B00F7D9A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,8 +152,24 @@
 				F08248491EB82EC300EC951B /* Assets.xcassets */,
 				F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */,
 				F082484E1EB82EC300EC951B /* Info.plist */,
+				FA0A956123DCB60500C9B6C9 /* HandWrittingView.swift */,
+				FA0A956323DCB7B600C9B6C9 /* TestViewController.swift */,
+				FA0A956523DCC27800C9B6C9 /* UIView+extension.swift */,
+				FA0A956923DCE18400C9B6C9 /* DigitCollectionViewCell.swift */,
+				FA0A956A23DCE18400C9B6C9 /* DigitCollectionViewCell.xib */,
+				FAE581B423E119A300486131 /* DashboardLayout.swift */,
+				FAE581B623E1384F00486131 /* InputDashboardViewController.swift */,
+				FAE581B823E138C800486131 /* InputTableViewCell.swift */,
+				FAE581B923E138C800486131 /* InputTableViewCell.xib */,
 			);
 			path = Handwriting;
+			sourceTree = "<group>";
+		};
+		FA56C24023DD168B00F7D9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +182,7 @@
 				F082483B1EB82EC200EC951B /* Sources */,
 				F082483C1EB82EC200EC951B /* Frameworks */,
 				F082483D1EB82EC200EC951B /* Resources */,
+				FA06CD2D23DD18730063740E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,7 +205,7 @@
 				TargetAttributes = {
 					F082483E1EB82EC200EC951B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5ZHKK24J8V;
+						DevelopmentTeam = 4X4PXM867M;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -186,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE581BB23E138C800486131 /* InputTableViewCell.xib in Resources */,
+				FA0A956C23DCE18400C9B6C9 /* DigitCollectionViewCell.xib in Resources */,
 				F082484D1EB82EC300EC951B /* LaunchScreen.storyboard in Resources */,
 				F038598F1EB82F10001F33D1 /* neuralnet-mnist-trained in Resources */,
 				F082484A1EB82EC300EC951B /* Assets.xcassets in Resources */,
@@ -200,6 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03859AA1EB84A28001F33D1 /* Structure.swift in Sources */,
+				FAE581BA23E138C800486131 /* InputTableViewCell.swift in Sources */,
+				FA0A956223DCB60500C9B6C9 /* HandWrittingView.swift in Sources */,
+				FA0A956423DCB7B600C9B6C9 /* TestViewController.swift in Sources */,
+				FA0A956623DCC27800C9B6C9 /* UIView+extension.swift in Sources */,
+				FAE581B723E1384F00486131 /* InputDashboardViewController.swift in Sources */,
 				F03859921EB82F7F001F33D1 /* UIView+Constraints.swift in Sources */,
 				F03859A81EB84A28001F33D1 /* NeuralNet.swift in Sources */,
 				F038599A1EB83C15001F33D1 /* Colors.swift in Sources */,
@@ -210,8 +266,10 @@
 				F08248451EB82EC200EC951B /* MainViewController.swift in Sources */,
 				F03859961EB83AA2001F33D1 /* ShadowView.swift in Sources */,
 				F03859A41EB84A28001F33D1 /* Activation.swift in Sources */,
+				FA0A956B23DCE18400C9B6C9 /* DigitCollectionViewCell.swift in Sources */,
 				F03859A71EB84A28001F33D1 /* Error.swift in Sources */,
 				F08248431EB82EC200EC951B /* AppDelegate.swift in Sources */,
+				FAE581B523E119A300486131 /* DashboardLayout.swift in Sources */,
 				F03859AC1EB92D8C001F33D1 /* Float+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -315,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -327,12 +385,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5ZHKK24J8V;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X4PXM867M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Handwriting",
+				);
 				INFOPLIST_FILE = Handwriting/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.Handwriting";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.agcepeda.Handwriting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};
@@ -342,12 +407,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5ZHKK24J8V;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X4PXM867M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Handwriting",
+				);
 				INFOPLIST_FILE = Handwriting/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.Handwriting";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.agcepeda.Handwriting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};

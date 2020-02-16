@@ -200,8 +200,9 @@ extension MainViewController {
     }
     
     /// Crops the given UIImage to the provided CGRect.
-    fileprivate func crop(_ image: UIImage, to: CGRect) -> UIImage {
+    func crop(_ image: UIImage, to: CGRect) -> UIImage {
         let img = image.cgImage!.cropping(to: to)
+        
         return UIImage(cgImage: img!)
     }
     
